@@ -9,8 +9,8 @@ verifier:
   name: inspec
 
 platforms:
-  - name: centos-7.1
-
+  - name: centos-7
+  - name: RHEL-7.2
 suites:
   - name: default
     run_list:
