@@ -14,3 +14,46 @@ bin/*
 
 .kitchen/
 .kitchen.local.yml
+/.bundle
+/log/*
+!/log/.keep
+/tmp
+/db/*.sqlite3
+/db/*.sqlite3-journal
+# Ignore OS X files
+.DS_Store
+
+/vendor
+/coverage
+.env
+.byebug_history
+
+#Ignore Certificate and Private Key files
+*.cer
+*.pem
+
+#Ignore sublime text project and workspace files
+*.sublime-project
+*.sublime-workspace
+
+#Ignore WSDL documents
+*.wsdl
+
+/public
+
+#Ignore RubyMine files`
+*.ideafig --global core.excludesfile '~/.gitignore_global'
+*.idea
+
+Gemfile.local
+#Gemfile.lock
+##ignore for elipse
+.classpath
+.project
+
+# tagging file for atom text editor is project specific and should not be governed by version control
+tags
+gems.tags
+Guardfile
+/node_modules
+.eslintrc
